@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=La+Belle+Aurore&display=swap');
+
+
+body{
+    background-color:azure;
+}
+.sub-container h3{
+    color: blue;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+   
+}
+.image1{
+   margin-left: auto;
+   margin-right: auto;
+   /* border: 1px solid rgb(6, 123, 219);
+   border-radius: 10px; */
+   display: block;
+
+}
+h4{
+    border: 1px solid  rgb(6, 123, 219);
+    text-align: center;
+    /* width: 40%;  */
+    border-radius: 10px;
+    padding: 10px;
+}
+button{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(6, 123, 219);
+    color: white;
+    border: 1px;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    background-color: black
+}
+.sub-container{
+    /* border: 1px red solid; */
+    border-radius: 10px;
+    padding: 10px;
+    background-color:white;
+    margin: 10px;
+    font-family: 'Acme', sans-serif;
+    
+}
+.fa-regular .fa-backpack{
+    color: gold;
+}
+.icons{
+    display: grid;
+    line-height: 1.5;
+}
